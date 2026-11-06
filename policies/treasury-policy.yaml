@@ -1,0 +1,99 @@
+# Sample treasury policy for sweep-agent.
+#
+# The agent can only propose what this file allows. Every number here is a hard
+# limit enforced in code (src/policy/engine.ts), not a suggestion to the model.
+# Replace the values with your own treasury rules.
+
+name: Sample treasury policy
+
+# USD value of one unit of each currency. Stablecoins are priced from live
+# quotes when available and fall back to these values.
+fx_to_usd:
+  USD: 1
+  AED: 0.2723   # AED is pegged at 3.6725 per USD
+  USDC: 1
+  USDT: 1
+
+liquidity:
+  horizon_days: 7                # obligations due within this window are reserved
+  default_buffer_pct: 15         # always leave this share of every balance untouched
+  account_minimums:              # hard floors, in each account's own currency
+    ops-bank-aed: 3000000
+    settlement-bank-usd: 1000000
+  min_idle_usd_to_act: 50000     # idle cash below this is ignored
+
+deployment:
+  max_share_of_idle_pct: 60      # deploy at most this share of idle cash per cycle
+  max_total_deployed_usd: 5000000
+  min_ticket_usd: 25000
+  # One-off cost to move cash into an instrument's currency, in basis points.
+  # A route that isn't listed is not allowed.
+  conversion_costs_bps:
+    AED->USDC: 20
+    AED->USDT: 25
+    AED->USD: 10
+    USD->USDC: 5
+    USD->USDT: 10
+    USDT->USDC: 5
+    USDC->USDT: 5
+    USDT->USD: 10
+    USDC->USD: 5
+
+instruments:
+  stablecoin_yield:
+    enabled: true
+    allowed_projects: [aave-v3, compound-v3, spark-savings, sky-lending, maple]
+    allowed_chains: [Ethereum, Arbitrum, Base]
+    allowed_assets: [USDC, USDT]
+    min_tvl_usd: 100000000
+    min_apy_pct: 3
+    max_apy_pct: 12              # above this, the yield usually hides extra risk
+    max_per_project_usd: 1000000
+    min_approvers: 1
+
+  tokenized_treasuries:
+    enabled: true
+    allowed_projects: [blackrock-buidl, invesco-ustb, circle-usyc, ondo-yield-assets, vaneck-treasury-fund]
+    allowed_chains: [Ethereum, Solana, Avalanche, Arbitrum, Base]
+    subscription_asset: USDC
+    min_tvl_usd: 100000000
+    min_apy_pct: 3
+    max_apy_pct: 8
+    max_per_project_usd: 2000000
+    min_approvers: 1
+
+  spot:
+    enabled: true
+    allowed_assets: [BTC, ETH]
+    max_position_usd: 250000
+    min_approvers: 2             # directional bets always need two people
+
+  arbitrage:
+    enabled: true
+    pairs: [BTC-USD, ETH-USD, USDT-USD, USDC-USD]
+    venues: [kraken, coinbase, bitstamp]
+    taker_fee_bps:
+      kraken: 26
+      coinbase: 40
+      bitstamp: 30
+    min_net_spread_bps: 5
+    max_notional_usd: 200000
+    min_approvers: 1
+
+approvals:
+  # The approvers a proposal needs, by size. Anything above the last tier is blocked.
+  tiers:
+    - max_usd: 250000
+      approvers: 1
+    - max_usd: 1000000
+      approvers: 2
+    - max_usd: 3000000
+      approvers: 3
+  # Slack user IDs (or CLI names) allowed to approve. Empty means anyone.
+  allowed_approvers: []
+  expire_after_minutes: 120
+
+execution:
+  mode: simulated                # this repo never moves real money
+  recheck_before_execute: true   # re-run every check against fresh prices first
+  max_price_drift_bps: 50        # spot and arbitrage: block if prices moved more than this

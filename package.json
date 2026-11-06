@@ -1,0 +1,37 @@
+{
+  "name": "sweep-agent",
+  "version": "0.1.0",
+  "description": "A policy-bound AI treasury agent that finds idle cash, proposes ways to put it to work, and acts only after human approval in Slack.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Mohsin Hafeez",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sweep": "tsx src/cli.ts sweep",
+    "snapshot": "tsx src/cli.ts snapshot",
+    "proposals": "tsx src/cli.ts proposals",
+    "approve": "tsx src/cli.ts approve",
+    "reject": "tsx src/cli.ts reject",
+    "reset": "tsx src/cli.ts reset",
+    "record-fixture": "tsx src/cli.ts record-fixture",
+    "dashboard": "tsx src/dashboard/server.ts",
+    "slack": "tsx src/approval/slack.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "@slack/bolt": "^5.1.0",
+    "dotenv": "^18.0.9",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

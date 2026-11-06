@@ -1,0 +1,18 @@
+{
+  "_comment": "Fictional balances for the demo. Obligations use dueInDays so the demo never goes stale.",
+  "accounts": [
+    { "id": "ops-bank-aed", "name": "Operating account (AED)", "type": "bank", "venue": "uae-bank", "currency": "AED", "balance": 18500000 },
+    { "id": "settlement-bank-usd", "name": "USD settlement account", "type": "bank", "venue": "us-bank", "currency": "USD", "balance": 4200000 },
+    { "id": "kraken-usd", "name": "Kraken (USD)", "type": "exchange", "venue": "kraken", "currency": "USD", "balance": 650000 },
+    { "id": "coinbase-usd", "name": "Coinbase (USD)", "type": "exchange", "venue": "coinbase", "currency": "USD", "balance": 400000 },
+    { "id": "bitstamp-usdt", "name": "Bitstamp (USDT)", "type": "exchange", "venue": "bitstamp", "currency": "USDT", "balance": 300000 },
+    { "id": "treasury-wallet-usdc", "name": "Treasury wallet (USDC)", "type": "wallet", "venue": "ethereum", "currency": "USDC", "balance": 2100000 }
+  ],
+  "obligations": [
+    { "id": "ob-1", "accountId": "ops-bank-aed", "amount": 6000000, "dueInDays": 2, "description": "PKR payout batch" },
+    { "id": "ob-2", "accountId": "ops-bank-aed", "amount": 2500000, "dueInDays": 5, "description": "BDT payout batch" },
+    { "id": "ob-3", "accountId": "ops-bank-aed", "amount": 4000000, "dueInDays": 12, "description": "Month-end vendor payments" },
+    { "id": "ob-4", "accountId": "settlement-bank-usd", "amount": 1800000, "dueInDays": 1, "description": "Partner settlement" },
+    { "id": "ob-5", "accountId": "treasury-wallet-usdc", "amount": 600000, "dueInDays": 3, "description": "Stablecoin remittance settlement" }
+  ]
+}
