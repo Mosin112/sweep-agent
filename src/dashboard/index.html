@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sweep Agent · Treasury</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --ink: #111827; --muted: #6b7280; --line: #e5e7eb;
+    --idle: #0f9d76; --reserved: #d97706; --buffer: #cbd5e1; --accent: #2563eb;
+    --ok-bg: #dcfce7; --ok: #166534; --warn-bg: #fef3c7; --warn: #92400e;
+    --bad-bg: #fee2e2; --bad: #991b1b; --neutral-bg: #f1f5f9; --neutral: #475569;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b0f14; --panel: #121820; --ink: #e5e7eb; --muted: #94a3b8; --line: #1f2937;
+      --idle: #34d399; --reserved: #f59e0b; --buffer: #334155; --accent: #60a5fa;
+      --ok-bg: #052e1c; --ok: #86efac; --warn-bg: #3a2a06; --warn: #fcd34d;
+      --bad-bg: #3b0d0d; --bad: #fca5a5; --neutral-bg: #1e293b; --neutral: #cbd5e1;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
+  main { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; margin-bottom: 20px; }
+  h1 { font-size: 20px; margin: 0; letter-spacing: -0.01em; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 12px; font-weight: 600; }
+  .meta { color: var(--muted); font-size: 13px; }
+  .kpis { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 16px; }
+  .kpi, .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; }
+  .kpi { padding: 14px 16px; }
+  .kpi .label { color: var(--muted); font-size: 12px; }
+  .kpi .value { font-size: 22px; font-weight: 600; margin-top: 4px; font-variant-numeric: tabular-nums; }
+  .kpi.idle .value { color: var(--idle); }
+  .panel { padding: 16px; margin-bottom: 16px; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th { text-align: left; font-weight: 500; color: var(--muted); font-size: 12px; padding: 0 10px 8px 0; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  td { padding: 10px 10px 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  .num { text-align: right; white-space: nowrap; }
+  .nowrap { white-space: nowrap; }
+  .sub { color: var(--muted); font-size: 12px; }
+  .bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--neutral-bg); min-width: 160px; margin-top: 4px; }
+  .bar span { display: block; height: 100%; }
+  .legend { display: flex; gap: 14px; font-size: 12px; color: var(--muted); margin: -4px 0 10px; }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+  .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 500; white-space: nowrap; }
+  .pending { background: var(--warn-bg); color: var(--warn); }
+  .executed { background: var(--ok-bg); color: var(--ok); }
+  .blocked, .rejected { background: var(--bad-bg); color: var(--bad); }
+  .expired, .approved { background: var(--neutral-bg); color: var(--neutral); }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .grid2 .panel { margin-bottom: 0; }
+  pre.summary { white-space: pre-wrap; font: inherit; margin: 0; }
+  .audit { list-style: none; margin: 0; padding: 0; max-height: 320px; overflow: auto; }
+  .audit li { padding: 6px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
+  .audit time { color: var(--muted); font-size: 12px; margin-right: 8px; font-variant-numeric: tabular-nums; }
+  .empty { color: var(--muted); }
+  @media (max-width: 900px) { .kpis { grid-template-columns: repeat(2, 1fr); } .grid2 { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Sweep Agent</h1>
+    <span class="meta" id="meta">Loading…</span>
+  </header>
+  <section class="kpis" id="kpis"></section>
+  <section class="panel">
+    <h2>Accounts</h2>
+    <div class="legend"><span><i style="background:var(--reserved)"></i>Reserved for obligations</span><span><i style="background:var(--buffer)"></i>Safety buffer</span><span><i style="background:var(--idle)"></i>Idle</span></div>
+    <table id="accounts"></table>
+  </section>
+  <section class="panel">
+    <h2>Proposals</h2>
+    <table id="proposals"></table>
+  </section>
+  <div class="grid2">
+    <section class="panel">
+      <h2>Latest sweep</h2>
+      <div id="cycle"></div>
+      <h2 style="margin-top:20px">Open positions</h2>
+      <table id="positions"></table>
+    </section>
+    <section class="panel">
+      <h2>Audit trail</h2>
+      <ul class="audit" id="audit"></ul>
+    </section>
+  </div>
+</main>
+<script>
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const usd = (n) => '$' + Math.round(n).toLocaleString('en-US');
+  const compact = (n) => '$' + Intl.NumberFormat('en-US', { notation: 'compact', maximumFractionDigits: 2 }).format(n);
+  const time = (iso) => new Date(iso).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+  function expected(p) {
+    const d = p.derived;
+    if (d.expectedAnnualYieldUsd != null) return `${d.expectedApyPct.toFixed(2)}% APY<div class="sub">≈ ${usd(d.expectedAnnualYieldUsd)}/yr</div>`;
+    if (d.expectedProfitUsd != null) return `${d.netSpreadBps} bps<div class="sub">≈ ${usd(d.expectedProfitUsd)}</div>`;
+    if (d.referencePrice) return `at ${d.referencePrice.toLocaleString('en-US')}`;
+    return '';
+  }
+
+  const describe = {
+    cycle_started: (e) => `Sweep started (${e.mode}, ${e.marketSource} data), ${usd(e.idleUsd)} idle`,
+    cycle_finished: (e) => `Sweep finished: ${e.proposed} proposed, ${e.rejectedByEngine} rejected by policy`,
+    proposal_created: (e) => `Proposed ${e.label} · ${usd(e.amountUsd)}`,
+    engine_rejected: (e) => `Policy engine rejected ${e.input.kind} ${usd(e.input.amountUsd)}: ${e.violations[0]}`,
+    proposal_approved: (e) => `${e.by} approved ${e.proposalId} (${e.approvals}/${e.required})`,
+    proposal_rejected: (e) => `${e.by} rejected ${e.proposalId}`,
+    executed: (e) => `Executed ${e.proposalId}: ${e.note}`,
+    execution_blocked: (e) => `Blocked ${e.proposalId}: ${e.violations[0]}`,
+    proposal_expired: (e) => `${e.proposalId} expired`,
+    agent_tool: (e) => `Agent called ${e.tool}`,
+    agent_finished: (e) => `Agent finished after ${e.turns} turns`,
+  };
+
+  function render(o) {
+    $('meta').textContent = `${o.policyName} · obligations reserved for ${o.horizonDays} days · ` +
+      (o.market ? `market data ${o.market.source}, ${time(o.market.fetchedAt)}` : 'no market data yet: run npm run sweep');
+
+    const t = o.totals;
+    $('kpis').innerHTML = [
+      ['Total balance', compact(t.balanceUsd)], ['Idle now', compact(t.idleUsd), 'idle'],
+      ['Deployed', compact(t.deployedUsd)], ['Expected yield / yr', compact(t.expectedAnnualYieldUsd)],
+      ['Awaiting approval', t.pending],
+    ].map(([label, value, cls]) => `<div class="kpi ${cls || ''}"><div class="label">${label}</div><div class="value">${value}</div></div>`).join('');
+
+    $('accounts').innerHTML = `<tr><th>Account</th><th class="num">Balance</th><th>Where the cash is</th><th class="num">Idle (USD)</th></tr>` +
+      o.accounts.map((a) => {
+        const pct = (x) => a.balance ? (100 * x / a.balance).toFixed(2) + '%' : '0%';
+        return `<tr><td>${esc(a.name)}<div class="sub">${esc(a.venue)} · ${esc(a.type)}</div></td>
+          <td class="num">${Math.round(a.balance).toLocaleString('en-US')} ${esc(a.currency)}<div class="sub">${usd(a.balanceUsd)}</div></td>
+          <td><div class="bar"><span style="width:${pct(a.reserved)};background:var(--reserved)"></span><span style="width:${pct(a.buffer)};background:var(--buffer)"></span><span style="width:${pct(a.idle)};background:var(--idle)"></span></div>
+            <div class="sub">${a.reservedFor.length ? esc(a.reservedFor.join(' · ')) : 'Nothing due in the horizon'}</div></td>
+          <td class="num">${usd(a.idleUsd)}</td></tr>`;
+      }).join('');
+
+    $('proposals').innerHTML = o.proposals.length
+      ? `<tr><th>Status</th><th>Proposal</th><th class="num">Amount</th><th>Expected</th><th class="num">Approvals</th><th>Why</th></tr>` +
+        o.proposals.map((p) => `<tr><td><span class="pill ${p.status}">${p.status}</span><div class="sub">${esc(p.id)}</div></td>
+          <td>${esc(p.derived.label)}<div class="sub">from ${esc(p.sourceAccountId)}</div></td>
+          <td class="num">${usd(p.amountUsd)}</td><td class="nowrap">${expected(p)}</td>
+          <td class="num">${p.approvals.length}/${p.requiredApprovers}</td>
+          <td>${esc(p.executionNote || p.rationale)}</td></tr>`).join('')
+      : `<tr><td class="empty">No proposals yet. Run <code>npm run sweep</code>.</td></tr>`;
+
+    const c = o.cycles[0];
+    $('cycle').innerHTML = c
+      ? `<div class="sub" style="margin-bottom:8px">${esc(c.id)} · ${c.mode === 'agent' ? 'Claude agent' : 'Deterministic baseline'} · ${time(c.startedAt)}</div><pre class="summary">${esc(c.summary)}</pre>`
+      : '<p class="empty">No sweeps yet.</p>';
+
+    $('positions').innerHTML = o.positions.length
+      ? `<tr><th>Position</th><th class="num">Amount</th><th class="num">APY</th></tr>` +
+        o.positions.map((p) => `<tr><td>${esc(p.label)}</td><td class="num">${usd(p.amountUsd)}</td><td class="num">${p.expectedApyPct != null ? p.expectedApyPct.toFixed(2) + '%' : '–'}</td></tr>`).join('')
+      : `<tr><td class="empty">Nothing deployed yet.</td></tr>`;
+
+    $('audit').innerHTML = o.audit.map((e) => `<li><time>${time(e.at)}</time>${esc((describe[e.event] || (() => e.event))(e))}</li>`).join('') || '<li class="empty">Empty.</li>';
+  }
+
+  async function load() {
+    try { render(await (await fetch('/api/overview')).json()); }
+    catch (e) { $('meta').textContent = 'Dashboard server not reachable.'; }
+  }
+  load();
+  setInterval(load, 5000);
+</script>
+</body>
+</html>
