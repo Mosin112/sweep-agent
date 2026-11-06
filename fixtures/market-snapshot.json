@@ -1,0 +1,3657 @@
+{
+  "fetchedAt": "2026-11-06T14:12:13.591Z",
+  "source": "live",
+  "quotes": [
+    {
+      "venue": "kraken",
+      "pair": "BTC-USD",
+      "bid": 75536.3,
+      "ask": 75536.4
+    },
+    {
+      "venue": "kraken",
+      "pair": "ETH-USD",
+      "bid": 2226.77,
+      "ask": 2226.85
+    },
+    {
+      "venue": "kraken",
+      "pair": "USDT-USD",
+      "bid": 0.9987,
+      "ask": 0.99871
+    },
+    {
+      "venue": "kraken",
+      "pair": "USDC-USD",
+      "bid": 0.9997,
+      "ask": 0.9998
+    },
+    {
+      "venue": "coinbase",
+      "pair": "BTC-USD",
+      "bid": 75528.89,
+      "ask": 75528.9
+    },
+    {
+      "venue": "coinbase",
+      "pair": "ETH-USD",
+      "bid": 2226.72,
+      "ask": 2226.74
+    },
+    {
+      "venue": "coinbase",
+      "pair": "USDT-USD",
+      "bid": 0.99861,
+      "ask": 0.99862
+    },
+    {
+      "venue": "bitstamp",
+      "pair": "BTC-USD",
+      "bid": 75524.95,
+      "ask": 75524.96
+    },
+    {
+      "venue": "bitstamp",
+      "pair": "ETH-USD",
+      "bid": 2226.53,
+      "ask": 2226.55
+    },
+    {
+      "venue": "bitstamp",
+      "pair": "USDT-USD",
+      "bid": 0.99868,
+      "ask": 0.9987
+    },
+    {
+      "venue": "bitstamp",
+      "pair": "USDC-USD",
+      "bid": 0.9997,
+      "ask": 0.99976
+    }
+  ],
+  "pools": [
+    {
+      "poolId": "d8c4eff5-c8a9-46fc-a888-057c4c668e72",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "SUSDS",
+      "tvlUsd": 4499627825,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "db678df9-3281-4bc2-a8bb-01160ffd6d48",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "WEETH",
+      "tvlUsd": 3374148627,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7e382157-b1bc-406d-b17b-facba43b716e",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "WBTC",
+      "tvlUsd": 2532830455,
+      "apy": 0.0032,
+      "stablecoin": false
+    },
+    {
+      "poolId": "43641cf5-a92e-416b-bce9-27113d3c0db6",
+      "project": "maple",
+      "chain": "Ethereum",
+      "symbol": "USDC",
+      "tvlUsd": 2448888763,
+      "apy": 5.0676,
+      "stablecoin": true
+    },
+    {
+      "poolId": "7c0a89c7-70cf-460c-b62e-cb278bf97e8f",
+      "project": "circle-usyc",
+      "chain": "BSC",
+      "symbol": "USYC",
+      "tvlUsd": 2148122508,
+      "apy": 3.4481,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e6435aae-cbe9-4d26-ab2c-a4d533db9972",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "WSTETH",
+      "tvlUsd": 2136812669,
+      "apy": 0.0002,
+      "stablecoin": false
+    },
+    {
+      "poolId": "b1986007-81f3-4150-9565-94d5a4066ce4",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "CBBTC",
+      "tvlUsd": 1322857154,
+      "apy": 0.001,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ac61ee82-2fe4-4f9b-a9cd-7fb33f598859",
+      "project": "ondo-yield-assets",
+      "chain": "Ethereum",
+      "symbol": "USDY",
+      "tvlUsd": 1288950916,
+      "apy": 3.75,
+      "stablecoin": false
+    },
+    {
+      "poolId": "bd0f5a2a-5d74-40bd-a7db-bf1538b314a2",
+      "project": "blackrock-buidl",
+      "chain": "Aptos",
+      "symbol": "BUIDL",
+      "tvlUsd": 968084509,
+      "apy": 3.8491,
+      "stablecoin": true
+    },
+    {
+      "poolId": "4c004503-9587-46f2-a362-d23a80f4b691",
+      "project": "maple",
+      "chain": "Ethereum",
+      "symbol": "USDG",
+      "tvlUsd": 720227316,
+      "apy": 4.9364,
+      "stablecoin": true
+    },
+    {
+      "poolId": "d3be212c-f337-40e2-87fc-fb636a3de38f",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "RSETH",
+      "tvlUsd": 705762936,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e880e828-ca59-4ec6-8d4f-27182a4dc23d",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "WETH",
+      "tvlUsd": 662462398,
+      "apy": 1.4473,
+      "stablecoin": false
+    },
+    {
+      "poolId": "51d2f8d4-1fb5-4f6b-938b-e9cd17ca1ceb",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "WETH",
+      "tvlUsd": 657110007,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "8edfdf02-cdbb-43f7-bca6-954e5fe56813",
+      "project": "maple",
+      "chain": "Ethereum",
+      "symbol": "USDT",
+      "tvlUsd": 647829939,
+      "apy": 4.8988,
+      "stablecoin": true
+    },
+    {
+      "poolId": "54600482-cfb9-4dd9-a73b-342cffd4644a",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "WETH",
+      "tvlUsd": 596998416,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "370a27ed-7971-5a6d-9f9d-7f98ed64d299",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "SKY",
+      "tvlUsd": 577697066,
+      "apy": 4.629,
+      "stablecoin": false
+    },
+    {
+      "poolId": "590d770e-ed5d-4c8d-ad96-5178c2072295",
+      "project": "blackrock-buidl",
+      "chain": "Solana",
+      "symbol": "BUIDL",
+      "tvlUsd": 568599449,
+      "apy": 3.8487,
+      "stablecoin": true
+    },
+    {
+      "poolId": "42eaf290-24c3-4ce0-82ab-c1276444871b",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "USDE",
+      "tvlUsd": 549988002,
+      "apy": 0.2563,
+      "stablecoin": true
+    },
+    {
+      "poolId": "a66e2d12-188b-407d-aaec-d95640e08ef7",
+      "project": "ondo-yield-assets",
+      "chain": "Stellar",
+      "symbol": "USDY",
+      "tvlUsd": 538683763,
+      "apy": 3.75,
+      "stablecoin": false
+    },
+    {
+      "poolId": "3637ce7b-529b-49c1-964c-710a50b2939c",
+      "project": "sky-lending",
+      "chain": "Arbitrum",
+      "symbol": "SUSDS",
+      "tvlUsd": 476286434,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "9d499222-a01a-45bb-bbc9-f01c7923693b",
+      "project": "spark-savings",
+      "chain": "Arbitrum",
+      "symbol": "USDS",
+      "tvlUsd": 476286434,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "1910847a-f8b5-40ce-a1ab-1dafdded5fbb",
+      "project": "invesco-ustb",
+      "chain": "Ethereum",
+      "symbol": "USTB",
+      "tvlUsd": 434608777,
+      "apy": 3.5894,
+      "stablecoin": true
+    },
+    {
+      "poolId": "0906793c-ec02-4c77-9e0e-eee007269d2f",
+      "project": "blackrock-buidl",
+      "chain": "Avalanche",
+      "symbol": "BUIDL",
+      "tvlUsd": 416650187,
+      "apy": 3.8491,
+      "stablecoin": true
+    },
+    {
+      "poolId": "a5d67f7e-5b51-4a9d-969d-caf051a7f5a4",
+      "project": "spark-savings",
+      "chain": "Ethereum",
+      "symbol": "USDT",
+      "tvlUsd": 412767625,
+      "apy": 4,
+      "stablecoin": true
+    },
+    {
+      "poolId": "c1ca08e4-d618-415e-ad63-fcec58705469",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WBTC",
+      "tvlUsd": 361402081,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e043585f-923f-4009-934f-005232f34a27",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "OSETH",
+      "tvlUsd": 297900445,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "55402b0b-af35-452b-b015-627b4233f0f1",
+      "project": "blackrock-buidl",
+      "chain": "BSC",
+      "symbol": "BUIDL",
+      "tvlUsd": 272389019,
+      "apy": 3.8801,
+      "stablecoin": true
+    },
+    {
+      "poolId": "1f8a60c7-e307-42cd-844c-18dec84f5137",
+      "project": "ondo-yield-assets",
+      "chain": "Sei",
+      "symbol": "USDY",
+      "tvlUsd": 260141008,
+      "apy": 3.75,
+      "stablecoin": false
+    },
+    {
+      "poolId": "c5c74dd1-995c-4445-9d84-3e710bad7d52",
+      "project": "spark-savings",
+      "chain": "Ethereum",
+      "symbol": "USDC",
+      "tvlUsd": 254116440,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "89bc7c4c-d71c-435c-ab28-56c803d51320",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "CBBTC",
+      "tvlUsd": 233095561,
+      "apy": 0.008,
+      "stablecoin": false
+    },
+    {
+      "poolId": "b663ca59-c7e6-4435-ae4a-28d339ce6a15",
+      "project": "blackrock-buidl",
+      "chain": "Ethereum",
+      "symbol": "BUIDL",
+      "tvlUsd": 229095030,
+      "apy": 3.8801,
+      "stablecoin": true
+    },
+    {
+      "poolId": "7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "WBTC",
+      "tvlUsd": 226314463,
+      "apy": 0.0154,
+      "stablecoin": false
+    },
+    {
+      "poolId": "19d024ed-9c70-4323-9a81-fe873ea5f0e0",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "SGHO",
+      "tvlUsd": 224204740,
+      "apy": 4.5,
+      "stablecoin": true
+    },
+    {
+      "poolId": "21e1ac8a-b3aa-4576-9506-0b40137721a0",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDE",
+      "tvlUsd": 212485413,
+      "apy": 0.2662,
+      "stablecoin": true
+    },
+    {
+      "poolId": "b7444791-ecab-4bc4-85dc-9eb351064d98",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "LBTC",
+      "tvlUsd": 199560541,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "c8a24fee-ec00-4f38-86c0-9f6daebc4225",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "SDAI",
+      "tvlUsd": 186869465,
+      "apy": 1.25,
+      "stablecoin": true
+    },
+    {
+      "poolId": "36e8a552-9e64-42da-b8f8-1a20866510d8",
+      "project": "ondo-yield-assets",
+      "chain": "XRPL",
+      "symbol": "OUSG",
+      "tvlUsd": 185614594,
+      "apy": 3.73,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9f71f0fd-cfac-54b1-865e-37338f481708",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "STUSDS",
+      "tvlUsd": 176187581,
+      "apy": 6.72,
+      "stablecoin": true
+    },
+    {
+      "poolId": "6cf9108a-4832-4681-95d7-757d51d3b24a",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "SUSDE",
+      "tvlUsd": 175912365,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "b2b1d98f-cac1-4e7b-8cd8-d67b576fd259",
+      "project": "blackrock-buidl",
+      "chain": "Ethereum",
+      "symbol": "BUIDL",
+      "tvlUsd": 172618622,
+      "apy": 3.538,
+      "stablecoin": true
+    },
+    {
+      "poolId": "54470a44-22f4-4508-bbbb-2d8e2770ab77",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "CBETH",
+      "tvlUsd": 143118609,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4d87430b-688a-5ac5-a593-4e31ac715d02",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "USDS",
+      "tvlUsd": 135979524,
+      "apy": 6.6413,
+      "stablecoin": true
+    },
+    {
+      "poolId": "072f6554-daa7-4708-80ba-371b896a89db",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WETH",
+      "tvlUsd": 133859769,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "aa70268e-4b52-42bf-a116-608b370f9501",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDC",
+      "tvlUsd": 132718170,
+      "apy": 4.2269,
+      "stablecoin": true
+    },
+    {
+      "poolId": "7436db9b-2872-46c8-81a2-da6baff902b7",
+      "project": "ondo-yield-assets",
+      "chain": "Ethereum",
+      "symbol": "OUSG",
+      "tvlUsd": 131381470,
+      "apy": 3.73,
+      "stablecoin": false
+    },
+    {
+      "poolId": "34f65227-f3f9-5c3f-9182-f6eca85ae729",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "USDE",
+      "tvlUsd": 129037585,
+      "apy": 0.8673,
+      "stablecoin": true
+    },
+    {
+      "poolId": "c4f1e434-3386-4f48-b0ac-dc89782dfa55",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "TBTC",
+      "tvlUsd": 123379985,
+      "apy": 0.0002,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f981a304-bb6c-45b8-b0c5-fd2f515ad23a",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDT",
+      "tvlUsd": 122474864,
+      "apy": 5.4995,
+      "stablecoin": true
+    },
+    {
+      "poolId": "c47eea82-1e3d-4b66-8777-278b8db1dd77",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WSTETH",
+      "tvlUsd": 114417575,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "29932dea-cd71-44c3-95bd-3e1525f4e3dd",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "SUSDE",
+      "tvlUsd": 108004848,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "a79fdd93-2747-43ee-bf53-0c372192964d",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "SYRUPUSDT",
+      "tvlUsd": 105810420,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "0827aa12-5831-47f0-b5ba-549294a2032b",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WBTC",
+      "tvlUsd": 105686451,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7ee6c38b-ac42-4388-88dc-389140276cf8",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "AAVE",
+      "tvlUsd": 104404599,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f1a22245-a1f1-4389-8ff2-dde4914b272d",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "RETH",
+      "tvlUsd": 91735066,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "3df9ffeb-8c72-438c-a9ae-026488d8f2b2",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "WEETH",
+      "tvlUsd": 88749254,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ca969cae-bbcb-4cd7-985e-be4df9815e15",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WSTETH",
+      "tvlUsd": 87414390,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9380e5ac-3b75-468c-951c-c24ff6497e80",
+      "project": "aave-v3",
+      "chain": "BSC",
+      "symbol": "WBNB",
+      "tvlUsd": 86209666,
+      "apy": 0.0117,
+      "stablecoin": false
+    },
+    {
+      "poolId": "94e3f442-ab03-4138-a7a8-910bac548058",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "BTC.B",
+      "tvlUsd": 85946186,
+      "apy": 0.0016,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a1e18d7d-9a5f-4251-acb4-a87e005fe2c5",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "WAVAX",
+      "tvlUsd": 85694551,
+      "apy": 0.9685,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9829fc1f-8f3a-5b29-a4b1-843b2996c95d",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "SYRUPUSDC",
+      "tvlUsd": 83865876,
+      "apy": 1.25,
+      "stablecoin": true
+    },
+    {
+      "poolId": "94657e4e-5345-48f0-9132-f7a709e2021e",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WETH",
+      "tvlUsd": 83395631,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a4e37545-203b-4412-9acd-3e8b1aa4d744",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "SUSDE",
+      "tvlUsd": 82405821,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "d541708e-1283-4feb-bc7a-457fc5f8db2c",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "WSTETH",
+      "tvlUsd": 81967193,
+      "apy": 0.061,
+      "stablecoin": false
+    },
+    {
+      "poolId": "45bfb85f-deb5-4990-b9c4-cfb99629e6e8",
+      "project": "aave-v3",
+      "chain": "BSC",
+      "symbol": "BTCB",
+      "tvlUsd": 81490138,
+      "apy": 0.006,
+      "stablecoin": false
+    },
+    {
+      "poolId": "b847133f-f5d5-4692-b74e-d815d51988fc",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "LINK",
+      "tvlUsd": 77310095,
+      "apy": 0.037,
+      "stablecoin": false
+    },
+    {
+      "poolId": "1914a267-f123-46ed-baa0-d1474d33c399",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "SAVAX",
+      "tvlUsd": 74934385,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "98d07333-f5e4-4a48-8061-cfb4b73ccf79",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "RLUSD",
+      "tvlUsd": 72470394,
+      "apy": 4.8645,
+      "stablecoin": true
+    },
+    {
+      "poolId": "58d18059-f1d1-45ed-acd3-f386e98cc506",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "WBTC",
+      "tvlUsd": 65319430,
+      "apy": 0.0098,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a90d554a-b548-4f50-b03e-9dcb724b7777",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDT",
+      "tvlUsd": 60103850,
+      "apy": 7.1995,
+      "stablecoin": true
+    },
+    {
+      "poolId": "e62bcb01-ed4c-4ec9-8cfa-e86e7ccf7688",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "WSTETH",
+      "tvlUsd": 59454965,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "6f00d46b-8735-49ae-9ced-2a0fccc56ad0",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDC",
+      "tvlUsd": 54993460,
+      "apy": 5.9969,
+      "stablecoin": true
+    },
+    {
+      "poolId": "49585253-1f0d-46df-9284-6ece1880fbef",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "XAUT",
+      "tvlUsd": 54251550,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "bace601a-530a-432c-9b79-8c6451de25ea",
+      "project": "spark-savings",
+      "chain": "Ethereum",
+      "symbol": "ETH",
+      "tvlUsd": 54037141,
+      "apy": 1.5,
+      "stablecoin": false
+    },
+    {
+      "poolId": "76ffb695-7fcf-418c-a368-4a9a2dc76f70",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "GHO",
+      "tvlUsd": 49698681,
+      "apy": 0.5036,
+      "stablecoin": true
+    },
+    {
+      "poolId": "569ab5a6-76e4-46a6-abb6-b12be4197e31",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "SYRUPUSDT",
+      "tvlUsd": 49398001,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "00b83068-9f87-4411-b5d7-5d2ff48c40c4",
+      "project": "ondo-yield-assets",
+      "chain": "Solana",
+      "symbol": "USDY",
+      "tvlUsd": 48168143,
+      "apy": 3.75,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ac338ec5-c38f-43e1-8e5c-b5e9b4842aa3",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "JAAA",
+      "tvlUsd": 46023147,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4dfb0ee0-6fa3-4b8b-83f7-b92e83f5242f",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "SYRUPUSDT",
+      "tvlUsd": 45999873,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "5640e30b-a9e9-57a5-9d5c-680a5891d531",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "PT-AUSD-17DEC2026",
+      "tvlUsd": 43132825,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7a950566-436e-4399-9e32-e92260a3e42d",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "TETH",
+      "tvlUsd": 42795820,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e338c687-a5d8-4abf-bc04-127990811b0a",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "USDT0",
+      "tvlUsd": 42591378,
+      "apy": 4.5105,
+      "stablecoin": true
+    },
+    {
+      "poolId": "9afa50b4-4cc0-43b8-914a-34d17066a3b6",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "RSETH",
+      "tvlUsd": 39973473,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "23405eee-97e7-4b8e-8625-19c3a36047e8",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "WETH",
+      "tvlUsd": 39092609,
+      "apy": 2.8848,
+      "stablecoin": false
+    },
+    {
+      "poolId": "de3ddd39-de9a-40b9-88e6-066ed3a6eb27",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "SFRAX",
+      "tvlUsd": 37452792,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "7da72d09-56ca-4ec5-a45f-59114353e487",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "USDC",
+      "tvlUsd": 37366595,
+      "apy": 3.2333,
+      "stablecoin": true
+    },
+    {
+      "poolId": "448a64ff-06fd-4e56-b63c-03662ac39010",
+      "project": "circle-usyc",
+      "chain": "Ethereum",
+      "symbol": "USYC",
+      "tvlUsd": 35475089,
+      "apy": 3.4481,
+      "stablecoin": false
+    },
+    {
+      "poolId": "d9fa8e14-0447-4207-9ae8-7810199dfa1f",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "USDC",
+      "tvlUsd": 35089151,
+      "apy": 2.9438,
+      "stablecoin": true
+    },
+    {
+      "poolId": "007d03bd-4987-4b3b-b7d2-2f3af42fa4b4",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WSTETH",
+      "tvlUsd": 34872663,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ccc467d1-bdf5-4062-81cd-7aed7dd9050b",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "WSTETH",
+      "tvlUsd": 31502235,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "79af7462-170a-4e77-886d-898dc2145c78",
+      "project": "aave-v3",
+      "chain": "Gnosis",
+      "symbol": "WSTETH",
+      "tvlUsd": 31405379,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4597eb92-6387-42ac-8abf-1b7da487fdee",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "MGLOBAL",
+      "tvlUsd": 30808841,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7fb382fb-fdc0-438f-bb5e-fc21f0351a7d",
+      "project": "vaneck-treasury-fund",
+      "chain": "Ethereum",
+      "symbol": "VBILL",
+      "tvlUsd": 28738116,
+      "apy": 3.9825,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f0131970-afac-4835-b22c-520f192e01d5",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "WEETH",
+      "tvlUsd": 27528604,
+      "apy": 0.0001,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a12d730b-9f47-47f9-95b6-c8689faf966c",
+      "project": "blackrock-buidl",
+      "chain": "OP Mainnet",
+      "symbol": "BUIDL",
+      "tvlUsd": 26562526,
+      "apy": 3.538,
+      "stablecoin": true
+    },
+    {
+      "poolId": "13d3320c-0e15-40cf-bbe7-480157ee9345",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "WRSETH",
+      "tvlUsd": 26548236,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e302de4d-952e-4e18-9749-0a9dc86e98bc",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "WETH",
+      "tvlUsd": 25384496,
+      "apy": 0.9579,
+      "stablecoin": false
+    },
+    {
+      "poolId": "361f0a3c-6adb-4b1c-bf35-f9cd79f2341c",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "WSTETH",
+      "tvlUsd": 25183534,
+      "apy": 0.0001,
+      "stablecoin": false
+    },
+    {
+      "poolId": "82969010-fb6e-4af6-a72c-55c8da9c78cf",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "WETH",
+      "tvlUsd": 25181791,
+      "apy": 4.9573,
+      "stablecoin": false
+    },
+    {
+      "poolId": "03a0cf78-c2f0-4ce5-85a8-2d5b77349276",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WSTETH",
+      "tvlUsd": 23749487,
+      "apy": 0.001,
+      "stablecoin": false
+    },
+    {
+      "poolId": "40ebf860-f7b0-55a1-a39b-fe61a3fc8663",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "USDE",
+      "tvlUsd": 23608943,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "41683a7c-20a2-4cd7-83a7-3ccedaad0db1",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "GHO",
+      "tvlUsd": 23343318,
+      "apy": 1.86,
+      "stablecoin": true
+    },
+    {
+      "poolId": "85c57261-b75b-4447-a115-d79b1a7de8ed",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "ETH",
+      "tvlUsd": 23013692,
+      "apy": 1.5909,
+      "stablecoin": false
+    },
+    {
+      "poolId": "2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "WETH",
+      "tvlUsd": 22947683,
+      "apy": 0.4695,
+      "stablecoin": false
+    },
+    {
+      "poolId": "76b70b33-d8a4-4e61-8092-9bd1f2be2fc9",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "USDE",
+      "tvlUsd": 22804219,
+      "apy": 0.0004,
+      "stablecoin": true
+    },
+    {
+      "poolId": "7e0661bf-8cf3-45e6-9424-31916d4c7b84",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "USDC",
+      "tvlUsd": 22303481,
+      "apy": 5.5688,
+      "stablecoin": true
+    },
+    {
+      "poolId": "2f7d9d91-af21-4424-92e4-1c8aef7e8f76",
+      "project": "vaneck-treasury-fund",
+      "chain": "BSC",
+      "symbol": "VBILL",
+      "tvlUsd": 21671233,
+      "apy": 3.9825,
+      "stablecoin": false
+    },
+    {
+      "poolId": "c715efe7-a70d-4358-b2c2-c149cf658612",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "WETH.E",
+      "tvlUsd": 19289617,
+      "apy": 0.0401,
+      "stablecoin": false
+    },
+    {
+      "poolId": "bd335b46-3daf-4507-adb2-6fd4337ea33b",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "WBTC",
+      "tvlUsd": 19279114,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "51eb4b5c-6d62-42fe-99d6-92ba6eecd2d5",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "WSTETH",
+      "tvlUsd": 18923954,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "2bf2ded9-9e4d-5718-9f25-0e0c38af6370",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "PT-USDG-25FEB2027",
+      "tvlUsd": 18669125,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "02cf54c1-ff40-4811-a368-b9883298470a",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "WOKB",
+      "tvlUsd": 18010883,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "bddbe936-e0e3-4bb4-9ffc-f34717df1358",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "CBBTC",
+      "tvlUsd": 18001181,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "5580410c-7b2f-4481-9556-ff4a87646570",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "CBBTC",
+      "tvlUsd": 16082144,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "0ba9d450-b306-4889-85ed-83dfca983e60",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WBTC",
+      "tvlUsd": 15975070,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "47da0cdd-7b1d-4927-9545-20b53b73afa8",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "USDT0",
+      "tvlUsd": 15935867,
+      "apy": 4.4479,
+      "stablecoin": true
+    },
+    {
+      "poolId": "bdcf8682-1d72-42a7-b23e-f56d666dd10e",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "EURC",
+      "tvlUsd": 15408464,
+      "apy": 2.3245,
+      "stablecoin": true
+    },
+    {
+      "poolId": "f4d5b566-e815-4ca2-bb07-7bcd8bc797f1",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "USDT",
+      "tvlUsd": 15278141,
+      "apy": 4.4213,
+      "stablecoin": true
+    },
+    {
+      "poolId": "1d5f2f96-3446-4cbc-beba-216677ad7a9d",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USCC",
+      "tvlUsd": 14840831,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "44c94cb2-8af3-4b7a-8cb5-0784ddcf3471",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "WETH",
+      "tvlUsd": 14829366,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "3007b64e-331d-425d-a7ae-33b8691da1a9",
+      "project": "ondo-yield-assets",
+      "chain": "Sui",
+      "symbol": "USDY",
+      "tvlUsd": 14134800,
+      "apy": 3.75,
+      "stablecoin": false
+    },
+    {
+      "poolId": "fdf02dc0-c38d-4850-8d61-74668d281325",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "CBETH",
+      "tvlUsd": 14026816,
+      "apy": 0.0001,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e053590b-54f1-40aa-ae0d-14e701ca734c",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WBTC",
+      "tvlUsd": 12727413,
+      "apy": 0.0235,
+      "stablecoin": false
+    },
+    {
+      "poolId": "1f73ccbf-189e-4471-9e5c-46151b505d7d",
+      "project": "blackrock-buidl",
+      "chain": "Arbitrum",
+      "symbol": "BUIDL",
+      "tvlUsd": 12624302,
+      "apy": 3.538,
+      "stablecoin": true
+    },
+    {
+      "poolId": "aa2d08c0-0abd-4dcf-be93-ff8ca89d01cd",
+      "project": "spark-savings",
+      "chain": "Base",
+      "symbol": "USDS",
+      "tvlUsd": 12079209,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "91eed93a-e7e0-49fa-92c1-40f2b2768fd9",
+      "project": "aave-v3",
+      "chain": "BSC",
+      "symbol": "ETH",
+      "tvlUsd": 11914733,
+      "apy": 0.4677,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ff2a68af-030c-4697-b0a1-b62a738eaef0",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "SGHO",
+      "tvlUsd": 11849262,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "ebe53ee0-db95-478e-8476-b8aa420be700",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WEETH",
+      "tvlUsd": 11676975,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a1371c8f-592f-56d4-a506-7f1530f35a00",
+      "project": "spark-savings",
+      "chain": "Robinhood Chain",
+      "symbol": "USDG",
+      "tvlUsd": 11661866,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "1367b9ac-2b34-463e-8dd9-cbe4fb2257bb",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "FBTC",
+      "tvlUsd": 11635955,
+      "apy": 0.0009,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a334a33e-4e77-433d-8221-1fa6316eaac1",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WBTC",
+      "tvlUsd": 10907356,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "dbddf880-255a-4754-83ca-4580fea4ad7b",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "WSTETH",
+      "tvlUsd": 10682902,
+      "apy": 0.0004,
+      "stablecoin": false
+    },
+    {
+      "poolId": "0a1131e6-a59d-537c-b18f-826b9583f01f",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "USDC",
+      "tvlUsd": 10657288,
+      "apy": 5.3765,
+      "stablecoin": true
+    },
+    {
+      "poolId": "0715f02b-1803-417f-98ec-4e6e950ff498",
+      "project": "blackrock-buidl",
+      "chain": "Polygon",
+      "symbol": "BUIDL",
+      "tvlUsd": 10473200,
+      "apy": 3.8491,
+      "stablecoin": true
+    },
+    {
+      "poolId": "3665ee7e-6c5d-49d9-abb7-c47ab5d9d4ac",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "DAI",
+      "tvlUsd": 10221365,
+      "apy": 3.4479,
+      "stablecoin": true
+    },
+    {
+      "poolId": "a3675606-082b-4185-9673-db66a4287545",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "XBTC",
+      "tvlUsd": 10131301,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7e7821a2-3d20-4ae7-9c3d-04cd57904555",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "USDT0",
+      "tvlUsd": 9644663,
+      "apy": 3.6039,
+      "stablecoin": true
+    },
+    {
+      "poolId": "6654267d-19f2-4245-8e18-3670f699e490",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "FBTC",
+      "tvlUsd": 8825999,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "29be6a85-414f-4a66-b075-98863278912a",
+      "project": "aave-v3",
+      "chain": "BSC",
+      "symbol": "USDT",
+      "tvlUsd": 8303652,
+      "apy": 3.3552,
+      "stablecoin": true
+    },
+    {
+      "poolId": "b5ca474e-8117-55d5-982b-78421f845abf",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "MUSD",
+      "tvlUsd": 8190458,
+      "apy": 5.5342,
+      "stablecoin": true
+    },
+    {
+      "poolId": "1b8b4cdb-0728-42a8-bf13-2c8fea7427ee",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "USDC",
+      "tvlUsd": 7983514,
+      "apy": 3.7709,
+      "stablecoin": true
+    },
+    {
+      "poolId": "03f97f6b-3e17-4ccd-8687-0b3f736441b3",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WSTETH",
+      "tvlUsd": 7493584,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "25b57085-9668-46e8-b464-a46a37d45f9d",
+      "project": "aave-v3",
+      "chain": "Gnosis",
+      "symbol": "GNO",
+      "tvlUsd": 7060110,
+      "apy": 0.038,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9e60948f-e16f-4e07-9311-759f81bcc78e",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "CBBTC",
+      "tvlUsd": 6535729,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ef8c5c38-6a41-4383-9dc8-6fb31e69a0c9",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "WETH",
+      "tvlUsd": 6192549,
+      "apy": 1.4468,
+      "stablecoin": false
+    },
+    {
+      "poolId": "d83facac-3757-4b19-a84c-f3c0850dfe2a",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "WETH",
+      "tvlUsd": 5823363,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "32f04d80-25f9-439f-838d-3b15becf2d21",
+      "project": "aave-v3",
+      "chain": "Gnosis",
+      "symbol": "SDAI",
+      "tvlUsd": 5693014,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "3ddb0b11-e501-491d-85e4-8a50efc0bced",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "EBTC",
+      "tvlUsd": 5606633,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "c4b05318-88af-4536-a834-f5fc8940d2d3",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "USDC",
+      "tvlUsd": 5572351,
+      "apy": 5.2234,
+      "stablecoin": true
+    },
+    {
+      "poolId": "05b39877-c068-450b-bd0c-cc6e47886aa7",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WSTETH",
+      "tvlUsd": 5500182,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4dab1166-614a-429a-831f-4af70fd29c7d",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "WBTC",
+      "tvlUsd": 5468434,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "0e289cf3-fee2-43fc-b387-ae7a20cfaf07",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WETH",
+      "tvlUsd": 5465525,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "19d8ae87-7e6c-4b18-93eb-fa4060ddcc4b",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "USD₮0",
+      "tvlUsd": 5411280,
+      "apy": 3.1394,
+      "stablecoin": false
+    },
+    {
+      "poolId": "3e332a41-3a15-41bc-8d5c-438c09609349",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WETH",
+      "tvlUsd": 5380510,
+      "apy": 1.0776,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9a739779-0a53-4efd-8300-8819727fb23a",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "LINK",
+      "tvlUsd": 5298275,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "0af18cf7-b21c-5a85-93e5-bd58289a2d6d",
+      "project": "sky-lending",
+      "chain": "OP Mainnet",
+      "symbol": "SUSDS",
+      "tvlUsd": 5155294,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "8bba1554-1318-54ad-9143-0972406e9428",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "USDT0",
+      "tvlUsd": 5087286,
+      "apy": 5.4137,
+      "stablecoin": true
+    },
+    {
+      "poolId": "3a6cc030-738d-4e19-8a40-e63e9c4d5a6f",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "USD₮0",
+      "tvlUsd": 5036326,
+      "apy": 3.5157,
+      "stablecoin": false
+    },
+    {
+      "poolId": "85247b13-8180-44e7-b38c-4d324cc68a92",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "USDT",
+      "tvlUsd": 4924276,
+      "apy": 2.3845,
+      "stablecoin": true
+    },
+    {
+      "poolId": "5857cb89-c6e0-4a53-84b3-9e4d3135fbb5",
+      "project": "vaneck-treasury-fund",
+      "chain": "Solana",
+      "symbol": "VBILL",
+      "tvlUsd": 4271231,
+      "apy": 3.9825,
+      "stablecoin": false
+    },
+    {
+      "poolId": "07f70bad-5e2a-5b2f-8094-03965435983e",
+      "project": "aave-v3",
+      "chain": "MegaETH",
+      "symbol": "STCUSD",
+      "tvlUsd": 3994252,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "e65588a1-27ad-4e20-9232-68a6cfaccf63",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDS",
+      "tvlUsd": 3912329,
+      "apy": 3.9338,
+      "stablecoin": true
+    },
+    {
+      "poolId": "c998e615-aa51-4a1e-9a25-addfeee4d1f0",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "TBTC",
+      "tvlUsd": 3766762,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "6652ed18-d327-46cd-9bac-08e0e14ea715",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "EURC",
+      "tvlUsd": 3755194,
+      "apy": 2.4199,
+      "stablecoin": true
+    },
+    {
+      "poolId": "0f23649e-44fb-45be-b8b6-8ff28a0c0917",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USTB",
+      "tvlUsd": 3747741,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "29b6ce50-f9f0-432f-ac0f-a8e949c9392b",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "XETH",
+      "tvlUsd": 3736344,
+      "apy": 0.8511,
+      "stablecoin": false
+    },
+    {
+      "poolId": "8db7cb71-f2b7-45c7-bbff-f32c88ef7b81",
+      "project": "invesco-ustb",
+      "chain": "Plume Mainnet",
+      "symbol": "USTB",
+      "tvlUsd": 3686766,
+      "apy": 3.5894,
+      "stablecoin": true
+    },
+    {
+      "poolId": "31063861-ab4d-43a7-a071-c240fe08a8be",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "TETH",
+      "tvlUsd": 3658395,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "06278df9-008d-55aa-9b7f-d2bf72bb2da2",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "WEETH",
+      "tvlUsd": 3653197,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "5c994437-94bf-4c96-a4c1-5b8ae446dfd0",
+      "project": "aave-v3",
+      "chain": "MegaETH",
+      "symbol": "USDM",
+      "tvlUsd": 3402583,
+      "apy": 0.9848,
+      "stablecoin": true
+    },
+    {
+      "poolId": "43644487-e26c-450c-8bcb-fb10c1e512e0",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "LINK",
+      "tvlUsd": 3314001,
+      "apy": 0.0056,
+      "stablecoin": false
+    },
+    {
+      "poolId": "1767cdec-8dad-4b8c-a61c-fa10ab4d3f92",
+      "project": "ondo-yield-assets",
+      "chain": "Arbitrum",
+      "symbol": "USDY",
+      "tvlUsd": 3144160,
+      "apy": 3.75,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4e7fd7a4-4f10-421a-8ba0-0531b105bddb",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WETH",
+      "tvlUsd": 3109617,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "eb089ddf-77ba-459c-8e87-7a66c7fc3f27",
+      "project": "aave-v3",
+      "chain": "Gnosis",
+      "symbol": "EURE",
+      "tvlUsd": 3090332,
+      "apy": 3.1114,
+      "stablecoin": true
+    },
+    {
+      "poolId": "ea8d9aa8-46ae-4447-a192-74515706a575",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "ARB",
+      "tvlUsd": 3051635,
+      "apy": 0.0803,
+      "stablecoin": false
+    },
+    {
+      "poolId": "1e00ac2b-0c3c-4b1f-95be-9378f98d2b40",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "GHO",
+      "tvlUsd": 3043720,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "ef1ca885-ebf8-48c9-aab1-e6c5bcf26051",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "TBTC",
+      "tvlUsd": 3035598,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "2f679893-2049-4972-890f-c17fc6e57c7e",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "WBTC.E",
+      "tvlUsd": 2983518,
+      "apy": 0.0197,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f67c3baa-613a-409e-940e-5366f474871b",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "WPOL",
+      "tvlUsd": 2793299,
+      "apy": 0.7248,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f4b334a3-1724-450f-b06f-4163e566a950",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "UNI",
+      "tvlUsd": 2733496,
+      "apy": 0.0012,
+      "stablecoin": false
+    },
+    {
+      "poolId": "fc25412c-1c57-5ec2-b130-0cb3eb4d52e6",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "XBETH",
+      "tvlUsd": 2668312,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "225ac154-fa49-53ea-a246-12c7483f5b24",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "GHO",
+      "tvlUsd": 2645011,
+      "apy": 5.5594,
+      "stablecoin": true
+    },
+    {
+      "poolId": "de9b0b53-a6fc-4ff3-a9a7-065dfc1f998b",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "AAVE",
+      "tvlUsd": 2528844,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "02a17921-209f-4516-a166-8bb33799def5",
+      "project": "aave-v3",
+      "chain": "BSC",
+      "symbol": "WSTETH",
+      "tvlUsd": 2445941,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "baee0253-eb6e-4a08-a579-a2acd4f034b2",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDTB",
+      "tvlUsd": 2393225,
+      "apy": 2.4864,
+      "stablecoin": true
+    },
+    {
+      "poolId": "12459650-9e4f-4288-9d71-2682954d2a92",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WBTC",
+      "tvlUsd": 2315634,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ac7361fa-edf4-4aa8-86ed-657be5320c65",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "LINK",
+      "tvlUsd": 2244351,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e6692d08-85b6-4b50-952b-7c5c531862fe",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "USDT",
+      "tvlUsd": 2205376,
+      "apy": 4.6044,
+      "stablecoin": true
+    },
+    {
+      "poolId": "310f13c2-508a-4db1-bb6d-012b711d8887",
+      "project": "aave-v3",
+      "chain": "Linea",
+      "symbol": "WEETH",
+      "tvlUsd": 2200714,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a09b9aac-a117-4984-b9e5-62a6f2ff41a1",
+      "project": "compound-v3",
+      "chain": "Polygon",
+      "symbol": "WBTC",
+      "tvlUsd": 2151682,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "09fcd4ee-e2c2-4739-9d6e-1da4273a7109",
+      "project": "aave-v3",
+      "chain": "Sonic",
+      "symbol": "WS",
+      "tvlUsd": 2125982,
+      "apy": 0.0066,
+      "stablecoin": false
+    },
+    {
+      "poolId": "efb25a57-ec51-4f74-9b2c-a1206bd69a93",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "COMP",
+      "tvlUsd": 2005000,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "38ebbf7a-632b-40a6-ac1c-3685f7664bc5",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "COMP",
+      "tvlUsd": 2005000,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "d4cdd2fb-54bd-40fe-8093-e691ea0b291a",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "RETH",
+      "tvlUsd": 1988809,
+      "apy": 0.0022,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ffbec904-917e-4e2a-a169-c16d2c3b5059",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "WETH",
+      "tvlUsd": 1929258,
+      "apy": 0.0383,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9932d2d8-1e4e-4248-9307-4f99c7e466a8",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "CRV",
+      "tvlUsd": 1768434,
+      "apy": 0.342,
+      "stablecoin": false
+    },
+    {
+      "poolId": "00bd0491-da49-479f-bc13-b4039115f199",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WBTC",
+      "tvlUsd": 1733407,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "44037889-7a8c-45f9-802b-ebd87ea2d8ca",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "WSUPEROETHB",
+      "tvlUsd": 1719183,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "d9c395b9-00d0-4426-a6b3-572a6dd68e54",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "USDC",
+      "tvlUsd": 1658838,
+      "apy": 3.1847,
+      "stablecoin": true
+    },
+    {
+      "poolId": "40a5252b-305d-495a-9582-664a09ef2dc5",
+      "project": "aave-v3",
+      "chain": "Linea",
+      "symbol": "WETH",
+      "tvlUsd": 1644879,
+      "apy": 1.2153,
+      "stablecoin": false
+    },
+    {
+      "poolId": "5bf41dd0-abb5-4921-8556-939ef41d85de",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "UNI",
+      "tvlUsd": 1592543,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "247badef-51c2-4f50-b484-9d39226b4a4c",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "LBTC",
+      "tvlUsd": 1557212,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "995a6317-1c32-48c2-a8c9-683263b8412e",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "LINK",
+      "tvlUsd": 1551618,
+      "apy": 0.0223,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a9212f2f-bb21-4bf4-b5fb-99b23e22a4d8",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "UNI",
+      "tvlUsd": 1496512,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ef8fbf02-ac96-4453-a78c-37bda4cd65e3",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "LUSD",
+      "tvlUsd": 1464799,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "b832eb4f-63e0-59fe-8292-e82c845b3407",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "USDC",
+      "tvlUsd": 1394596,
+      "apy": 3.604,
+      "stablecoin": true
+    },
+    {
+      "poolId": "0a7f26f7-2dc7-4302-ab7f-9845584708a8",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "XSOL",
+      "tvlUsd": 1381093,
+      "apy": 0.35,
+      "stablecoin": false
+    },
+    {
+      "poolId": "d118f505-e75f-4152-bad3-49a2dc7482bf",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "PYUSD",
+      "tvlUsd": 1353350,
+      "apy": 3.3551,
+      "stablecoin": true
+    },
+    {
+      "poolId": "dcc24c76-7101-4e54-9574-323b8f85d14b",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "AAVE",
+      "tvlUsd": 1347585,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "effcb4a4-4dcb-45e5-935d-f15542c13e6b",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDC",
+      "tvlUsd": 1329090,
+      "apy": 3.1527,
+      "stablecoin": true
+    },
+    {
+      "poolId": "6e642655-9c87-4d5b-8237-f45cfd42a920",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WEETH",
+      "tvlUsd": 1328364,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7dfbc158-1fb6-4e2f-a50e-639909ce598d",
+      "project": "aave-v3",
+      "chain": "Sonic",
+      "symbol": "STS",
+      "tvlUsd": 1328126,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "b28d1092-cf89-4c77-ad3e-cdd6cc981a77",
+      "project": "aave-v3",
+      "chain": "Linea",
+      "symbol": "WRSETH",
+      "tvlUsd": 1320555,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "5335b797-b623-4ed1-a492-880cbabb053a",
+      "project": "aave-v3",
+      "chain": "Celo",
+      "symbol": "WETH",
+      "tvlUsd": 1300798,
+      "apy": 0.0167,
+      "stablecoin": false
+    },
+    {
+      "poolId": "1d5a9f86-a9ad-4288-a0c5-5a43fdc17e94",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "BTC.B",
+      "tvlUsd": 1256491,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f0df03c4-a46f-4f41-be89-37226c814918",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "GHO",
+      "tvlUsd": 1252662,
+      "apy": 8.2159,
+      "stablecoin": true
+    },
+    {
+      "poolId": "037bba4d-8c43-4835-95d4-b56f50716ff6",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "VBILL",
+      "tvlUsd": 1250000,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "8a0ed79f-2471-4092-b756-1e2e6daaf28d",
+      "project": "aave-v3",
+      "chain": "Sonic",
+      "symbol": "WETH",
+      "tvlUsd": 1225794,
+      "apy": 0.0014,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ca3710b5-67f2-4df8-8710-64335a6c0933",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "TBTC",
+      "tvlUsd": 1144278,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7bae3517-56f1-4c65-8480-904030d70343",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "CBETH",
+      "tvlUsd": 1139079,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "bf0660ab-38bf-48a4-9a6c-393ec0e2ff5f",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "GHO",
+      "tvlUsd": 1115594,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "15cf7c05-b5f0-4bde-8745-a791528c4381",
+      "project": "aave-v3",
+      "chain": "BSC",
+      "symbol": "USDC",
+      "tvlUsd": 1085144,
+      "apy": 4.9715,
+      "stablecoin": true
+    },
+    {
+      "poolId": "3e669ce8-74c5-4fc9-bf85-f40a924c6407",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "DAI.E",
+      "tvlUsd": 980652,
+      "apy": 1.9376,
+      "stablecoin": true
+    },
+    {
+      "poolId": "5cddae3c-7c4a-4473-8931-82a7f985185a",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "AAVE",
+      "tvlUsd": 979856,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e13cb9ca-d4dd-4c30-a367-8e9b3460e445",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "WEETH",
+      "tvlUsd": 956026,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a8e3d841-2788-4647-ad54-5a36fac451b1",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "DAI",
+      "tvlUsd": 947403,
+      "apy": 1.3298,
+      "stablecoin": true
+    },
+    {
+      "poolId": "d795cb4c-e30f-52c0-8447-bf0853763a20",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "AUSD",
+      "tvlUsd": 938383,
+      "apy": 5.5381,
+      "stablecoin": true
+    },
+    {
+      "poolId": "3fdb0a90-f40e-438e-896a-c0b25ee8d1ed",
+      "project": "aave-v3",
+      "chain": "Linea",
+      "symbol": "EZETH",
+      "tvlUsd": 919314,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "83fca810-ec67-401d-831a-2d0ae8e596c9",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDG",
+      "tvlUsd": 915839,
+      "apy": 2.41,
+      "stablecoin": true
+    },
+    {
+      "poolId": "c57bdc97-3100-41ff-845f-075363f6f5a4",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "DAI",
+      "tvlUsd": 848565,
+      "apy": 4.333,
+      "stablecoin": true
+    },
+    {
+      "poolId": "3b6ebb7e-6f2a-4c19-aadb-1c89625e5a08",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "TETH",
+      "tvlUsd": 807537,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "24762515-822a-46af-927c-77a1dc449bd0",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "USDC",
+      "tvlUsd": 782632,
+      "apy": 0.2035,
+      "stablecoin": true
+    },
+    {
+      "poolId": "125974d5-ad17-4a3a-b967-ebbf721fca22",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "GHO",
+      "tvlUsd": 774493,
+      "apy": 1.3993,
+      "stablecoin": true
+    },
+    {
+      "poolId": "0c8567f8-ba5b-41ad-80de-00a71895eb19",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "USDC",
+      "tvlUsd": 774044,
+      "apy": 7.7401,
+      "stablecoin": true
+    },
+    {
+      "poolId": "e68ecfb4-ba44-49e9-9626-31299405b520",
+      "project": "aave-v3",
+      "chain": "Linea",
+      "symbol": "WBTC",
+      "tvlUsd": 770046,
+      "apy": 0.0567,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7803ce5b-53b3-4192-b855-8cb383e19050",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "WSTETH",
+      "tvlUsd": 768453,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "0758c3b8-4ffb-4176-b0a9-f446e367db46",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "USDC",
+      "tvlUsd": 761832,
+      "apy": 5.3586,
+      "stablecoin": true
+    },
+    {
+      "poolId": "8a6cda27-aa2b-4201-bb05-9cfcfc4ab6fd",
+      "project": "aave-v3",
+      "chain": "Celo",
+      "symbol": "USD₮",
+      "tvlUsd": 740350,
+      "apy": 0.5734,
+      "stablecoin": false
+    },
+    {
+      "poolId": "27eea2d2-1d51-43c5-8739-aac008178215",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "LINK.E",
+      "tvlUsd": 726434,
+      "apy": 0.0034,
+      "stablecoin": false
+    },
+    {
+      "poolId": "703d593d-57b4-4efd-a32a-973bec2a2e67",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WEETH",
+      "tvlUsd": 711832,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "5663e2ef-7e9c-4755-9701-9b59b90dbba3",
+      "project": "vaneck-treasury-fund",
+      "chain": "Avalanche",
+      "symbol": "VBILL",
+      "tvlUsd": 708335,
+      "apy": 3.9825,
+      "stablecoin": false
+    },
+    {
+      "poolId": "80380208-63a5-46f7-9bb9-caa60fc73a8f",
+      "project": "aave-v3",
+      "chain": "BSC",
+      "symbol": "CAKE",
+      "tvlUsd": 702399,
+      "apy": 0.0046,
+      "stablecoin": false
+    },
+    {
+      "poolId": "1bd96dcd-9987-43b2-88c3-fb795f87615d",
+      "project": "aave-v3",
+      "chain": "Linea",
+      "symbol": "WSTETH",
+      "tvlUsd": 662946,
+      "apy": 0.0009,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a287995e-2249-43d7-bdb0-0ce030930a51",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "TBTC",
+      "tvlUsd": 661510,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "965b1b74-6572-4075-92b1-a51c3acd953e",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "WEETH",
+      "tvlUsd": 652631,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7da0c125-11b1-412f-ab3c-c3703caebe16",
+      "project": "compound-v3",
+      "chain": "Polygon",
+      "symbol": "WBTC",
+      "tvlUsd": 628165,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "71391dac-7bbc-478d-9d11-d4813bebd90d",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "WSTETH",
+      "tvlUsd": 620166,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "85fc6934-c94d-4ebe-9c60-66beb363669f",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "RLUSD",
+      "tvlUsd": 604904,
+      "apy": 3.1126,
+      "stablecoin": true
+    },
+    {
+      "poolId": "b6fbf2c4-2782-4a55-b7d5-c592b5546a67",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "MATICX",
+      "tvlUsd": 574077,
+      "apy": 0.0018,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4eedc8b7-6314-4ac1-9966-dff2e1bebcf1",
+      "project": "aave-v3",
+      "chain": "Gnosis",
+      "symbol": "WETH",
+      "tvlUsd": 527577,
+      "apy": 0.5613,
+      "stablecoin": false
+    },
+    {
+      "poolId": "2328f3a1-7594-5256-83fd-00588da6c489",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "XOKSOL",
+      "tvlUsd": 525040,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ce58dd8e-9345-4921-92d7-dc80bdafaab7",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "PT-SRUSDE-22OCT2026",
+      "tvlUsd": 517771,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "d44af432-3682-4532-830a-1ffe0b6bfcbe",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "WXPL",
+      "tvlUsd": 509466,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f3424f2d-78ff-5593-be32-430c1fd7fb29",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "PT-USDG-29OCT2026",
+      "tvlUsd": 484596,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f38a1e55-ee6a-427c-83b5-74232e1b2c24",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "G-UNI",
+      "tvlUsd": 477321,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9e28dffc-2773-4c52-8cae-66c16e0eaa00",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "RETH",
+      "tvlUsd": 452753,
+      "apy": 0.0001,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7909e3f2-f00f-5e8e-9655-0d7e189794a3",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "WETH",
+      "tvlUsd": 446108,
+      "apy": 2.7367,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e96cbd55-a0a0-446a-89ba-ada6e2991d50",
+      "project": "spark-savings",
+      "chain": "Avalanche",
+      "symbol": "USDC",
+      "tvlUsd": 443756,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "21091399-1187-4242-8e03-9b06032f9a8f",
+      "project": "aave-v3",
+      "chain": "Gnosis",
+      "symbol": "WXDAI",
+      "tvlUsd": 418622,
+      "apy": 0.7598,
+      "stablecoin": true
+    },
+    {
+      "poolId": "0b65cb9f-2c63-40d5-9344-2a867fbfc41a",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "WBTC",
+      "tvlUsd": 417213,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "fe084859-2384-4daf-86ec-63f5f8dcdaaa",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "LINK",
+      "tvlUsd": 403704,
+      "apy": 0.0122,
+      "stablecoin": false
+    },
+    {
+      "poolId": "25d8f956-0219-4af0-a4b2-7cc9b017c076",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WSTETH",
+      "tvlUsd": 395879,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4a2ded3a-3667-40a8-a9b2-503b6d357b49",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "RPL",
+      "tvlUsd": 391475,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "d9a28405-6299-4af6-b37e-e9a9f09a1299",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WSTETH",
+      "tvlUsd": 388855,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "8bac9ade-e894-489d-9cb8-f062f16d85de",
+      "project": "aave-v3",
+      "chain": "Xlayer",
+      "symbol": "USDG",
+      "tvlUsd": 386762,
+      "apy": 2.4338,
+      "stablecoin": true
+    },
+    {
+      "poolId": "c372279e-92ff-4acc-ad90-14a4d3a888e4",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "CBETH",
+      "tvlUsd": 369433,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "87e476df-2d7c-4ee9-913c-e0d96865ef82",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "OP",
+      "tvlUsd": 366707,
+      "apy": 0.062,
+      "stablecoin": false
+    },
+    {
+      "poolId": "b5d7a190-38d2-4fdd-8c14-1fd00c11bce1",
+      "project": "ondo-yield-assets",
+      "chain": "Mantle",
+      "symbol": "USDY",
+      "tvlUsd": 365655,
+      "apy": 3.75,
+      "stablecoin": false
+    },
+    {
+      "poolId": "5b6edf87-536d-4248-b492-57c8dc56f52a",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "EZETH",
+      "tvlUsd": 359153,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "be3d7cb9-f008-4050-8802-13ea505bcbdf",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WETH",
+      "tvlUsd": 358087,
+      "apy": 1.217,
+      "stablecoin": false
+    },
+    {
+      "poolId": "37b04faa-95bb-4ccb-9c4e-c70fa167342b",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "USDC",
+      "tvlUsd": 357235,
+      "apy": 1.3199,
+      "stablecoin": true
+    },
+    {
+      "poolId": "420ad40c-2aab-4996-bb65-643d1ead3bfc",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "EZETH",
+      "tvlUsd": 350727,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9ec8eb36-332d-47d4-8d32-ee7574037e60",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "EURC",
+      "tvlUsd": 321591,
+      "apy": 2.8556,
+      "stablecoin": true
+    },
+    {
+      "poolId": "3966145f-dc53-4ad8-b6e2-3eb5ad367e37",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "ARB",
+      "tvlUsd": 321014,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "52612f7a-d8ec-43a0-a01a-2ba1ffc0ec9d",
+      "project": "aave-v3",
+      "chain": "MegaETH",
+      "symbol": "WSTETH",
+      "tvlUsd": 319330,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a29ce33e-5994-486e-b76e-4a52692d2571",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WBTC",
+      "tvlUsd": 319162,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f98296bc-8e16-422c-99d6-afa5a6460500",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "XAUT",
+      "tvlUsd": 316317,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "25a745d7-749f-4a70-9b94-543351cce638",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WEETH",
+      "tvlUsd": 308033,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "1b91b7d4-0438-41ee-8224-41adba87422d",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "G-UNI",
+      "tvlUsd": 306424,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "94473b8f-8052-4490-aa8d-7df1024f2927",
+      "project": "compound-v3",
+      "chain": "Polygon",
+      "symbol": "USDT",
+      "tvlUsd": 301785,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "63f78424-8029-4c6a-b19c-d81143a77550",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WETH",
+      "tvlUsd": 298025,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7993b97d-12c3-4a36-b6b6-5b37bac4f8ae",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "WETH",
+      "tvlUsd": 292097,
+      "apy": 1.638,
+      "stablecoin": false
+    },
+    {
+      "poolId": "68d87607-770d-5180-9b37-f7c12534b0fa",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "WSTETH",
+      "tvlUsd": 291798,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4be4f733-f9e1-46b7-aac5-6d72bb7ea37e",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "CBBTC",
+      "tvlUsd": 287659,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a9b33b07-df1e-5e92-b8b4-0c4c501097d0",
+      "project": "aave-v3",
+      "chain": "Monad",
+      "symbol": "CBBTC",
+      "tvlUsd": 284668,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "643e883f-6922-4c89-82c3-bf3ac260fe1f",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "USDC",
+      "tvlUsd": 280822,
+      "apy": 1.5674,
+      "stablecoin": true
+    },
+    {
+      "poolId": "32a2dbca-9d67-45ac-a7b0-bc0dba44a2fb",
+      "project": "aave-v3",
+      "chain": "Aptos",
+      "symbol": "APT",
+      "tvlUsd": 266035,
+      "apy": 0.0025,
+      "stablecoin": false
+    },
+    {
+      "poolId": "bde08c85-41c5-4d80-9bb1-0835a4352efa",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "USDT",
+      "tvlUsd": 249928,
+      "apy": 6.5343,
+      "stablecoin": true
+    },
+    {
+      "poolId": "461505e0-e631-4af0-b0e9-6a861d917939",
+      "project": "aave-v3",
+      "chain": "Gnosis",
+      "symbol": "USDC.E",
+      "tvlUsd": 245293,
+      "apy": 3.4086,
+      "stablecoin": true
+    },
+    {
+      "poolId": "d3f4305d-ac0a-4e5a-b814-67c3d7c3b6f0",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "TBTC",
+      "tvlUsd": 234699,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "27296bf9-617a-46e4-9d6d-eefc71e9e0b6",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDC",
+      "tvlUsd": 226300,
+      "apy": 8.0758,
+      "stablecoin": true
+    },
+    {
+      "poolId": "475e0e56-2648-4b75-82cb-e82f5983787a",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "LDO",
+      "tvlUsd": 222830,
+      "apy": 0.0506,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4a0e9f84-09a0-491a-aa5e-269813d31a59",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "WETH",
+      "tvlUsd": 219061,
+      "apy": 0.0098,
+      "stablecoin": false
+    },
+    {
+      "poolId": "8763e218-0eb0-4e4f-926f-568ba0c827e1",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "TBTC",
+      "tvlUsd": 202482,
+      "apy": 0.0995,
+      "stablecoin": false
+    },
+    {
+      "poolId": "32cb38a5-b9b9-441a-bf07-8fab47b999d3",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "USDC",
+      "tvlUsd": 202167,
+      "apy": 1.4063,
+      "stablecoin": true
+    },
+    {
+      "poolId": "c0b1d745-7fe9-4c27-a95d-b02aa9d26465",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WETH",
+      "tvlUsd": 202028,
+      "apy": 1.2929,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9ad71299-9318-47b3-9a5a-bbe67c5121bf",
+      "project": "invesco-ustb",
+      "chain": "Solana",
+      "symbol": "USTB",
+      "tvlUsd": 201242,
+      "apy": 3.5894,
+      "stablecoin": true
+    },
+    {
+      "poolId": "87188e84-4b9c-48d7-9512-75a522e1727f",
+      "project": "compound-v3",
+      "chain": "Polygon",
+      "symbol": "WETH",
+      "tvlUsd": 187161,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f24f1b9f-9556-4f36-996f-e19cadf1f7a6",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "RETH",
+      "tvlUsd": 186190,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "c5af4fbd-932d-40c5-8ee4-6b45ee691b76",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "MKR",
+      "tvlUsd": 185966,
+      "apy": 0.0009,
+      "stablecoin": false
+    },
+    {
+      "poolId": "8fe49c7b-64b7-49cb-9924-411f618588ef",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "EZETH",
+      "tvlUsd": 183240,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ccd0708c-5e07-477f-9dfa-59db70451b69",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "EZETH",
+      "tvlUsd": 181461,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f6c2fec8-dd63-4163-bd53-04b8ac48266e",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "USDC",
+      "tvlUsd": 175659,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "bd2246f3-b71f-4258-9f52-8c81ae826d53",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WBTC",
+      "tvlUsd": 171324,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "6f0a889a-f7ff-4de0-967d-4e806f5a3dc0",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "AAVE.E",
+      "tvlUsd": 168615,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e92131f3-628f-5983-8a94-995ca58856e8",
+      "project": "sky-lending",
+      "chain": "Unichain",
+      "symbol": "SUSDS",
+      "tvlUsd": 166556,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "a9fd50b6-1a6e-43fa-a0d5-49362eecc5c1",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "WMNT",
+      "tvlUsd": 164417,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "30d7bddf-9c7b-4495-a34a-e8d4ab1ff5c3",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "ETHX",
+      "tvlUsd": 161628,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "cc9d790f-e618-447a-8552-239fc7f6b58c",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WETH",
+      "tvlUsd": 160242,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "21320dfc-69d0-40c7-a224-7bead1fb576e",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "EZETH",
+      "tvlUsd": 152433,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "507c0596-8677-4006-bd6d-1698e13203e2",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "PUFETH",
+      "tvlUsd": 147762,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4712faa3-d362-4187-abc6-5c128d76f46d",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WSTETH",
+      "tvlUsd": 141463,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "b828f0cb-853d-4b32-aebb-2e20d7fd70a8",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "USDC",
+      "tvlUsd": 138180,
+      "apy": 7.1382,
+      "stablecoin": true
+    },
+    {
+      "poolId": "c24f5e4d-ff3a-47a9-ae26-96bd5d02f7e0",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "EZETH",
+      "tvlUsd": 128947,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "766ccc08-ba7c-4f94-b2fd-336ccc53c53b",
+      "project": "aave-v3",
+      "chain": "Gnosis",
+      "symbol": "USDC",
+      "tvlUsd": 124289,
+      "apy": 0.001,
+      "stablecoin": true
+    },
+    {
+      "poolId": "35dbaee7-dc76-465c-b468-a09634833f7f",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "GHO",
+      "tvlUsd": 123152,
+      "apy": 5.8639,
+      "stablecoin": true
+    },
+    {
+      "poolId": "4bbdb2ff-3237-44a5-bb86-6562f9814ad9",
+      "project": "aave-v3",
+      "chain": "Celo",
+      "symbol": "USDM",
+      "tvlUsd": 120566,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "3333de27-9613-4861-814d-084d54a1552c",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WBTC",
+      "tvlUsd": 115424,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "1b9f6e32-d7d0-4261-8fd8-7921d8a43d91",
+      "project": "aave-v3",
+      "chain": "MegaETH",
+      "symbol": "WETH",
+      "tvlUsd": 114495,
+      "apy": 1.0552,
+      "stablecoin": false
+    },
+    {
+      "poolId": "829ac1b4-2129-4699-a412-59a5d7dbab64",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WSTETH",
+      "tvlUsd": 112611,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7fc727a5-813c-405f-96d6-dd8b23f31e1b",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "AAVE",
+      "tvlUsd": 112508,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "8d208be9-5455-48f9-89ba-1113f3f875ea",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "USDT",
+      "tvlUsd": 101486,
+      "apy": 7.6041,
+      "stablecoin": true
+    },
+    {
+      "poolId": "fa77a10d-7adc-4615-a179-d9d9e5c8dc54",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "TBTC",
+      "tvlUsd": 98216,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "d2e98d69-238c-41a8-8899-15aee7358e33",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "CRVUSD",
+      "tvlUsd": 95347,
+      "apy": 0.6728,
+      "stablecoin": true
+    },
+    {
+      "poolId": "56fc0c94-0bf4-4ce0-98cf-63cbfa05513c",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "PT-SUSDE-22OCT2026",
+      "tvlUsd": 91330,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "e74172d4-39c4-4d20-af8e-debf60cae4b9",
+      "project": "compound-v3",
+      "chain": "Polygon",
+      "symbol": "WPOL",
+      "tvlUsd": 90840,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "78c4b5eb-6e36-4c3a-94b5-779e37dbf9a4",
+      "project": "aave-v3",
+      "chain": "Celo",
+      "symbol": "USDC",
+      "tvlUsd": 86595,
+      "apy": 0.212,
+      "stablecoin": true
+    },
+    {
+      "poolId": "ad892d6d-c5a4-433e-8de0-bb77f19a4cf3",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "GHO",
+      "tvlUsd": 84852,
+      "apy": 8.2419,
+      "stablecoin": true
+    },
+    {
+      "poolId": "15c8e294-d3e3-4006-99d3-fd2ee46a4544",
+      "project": "compound-v3",
+      "chain": "Scroll",
+      "symbol": "WETH",
+      "tvlUsd": 79761,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "be90db0a-18b8-4138-a53f-c69870a8699a",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "ARB",
+      "tvlUsd": 76180,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "0d635c7d-0a5f-4d6d-9e3e-1245442b9727",
+      "project": "ondo-yield-assets",
+      "chain": "Noble",
+      "symbol": "USDY",
+      "tvlUsd": 72052,
+      "apy": 3.75,
+      "stablecoin": false
+    },
+    {
+      "poolId": "8d89b481-a21c-4481-b2a8-b6cf8b59b09e",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "CBETH",
+      "tvlUsd": 68671,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "5a49dee1-344d-4b50-a167-8f5faab08752",
+      "project": "aave-v3",
+      "chain": "Linea",
+      "symbol": "USDC",
+      "tvlUsd": 66615,
+      "apy": 7.2951,
+      "stablecoin": true
+    },
+    {
+      "poolId": "86136467-14aa-4b35-b794-b3322902dc5b",
+      "project": "compound-v3",
+      "chain": "Polygon",
+      "symbol": "WETH",
+      "tvlUsd": 64252,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "974b8732-2dce-4a46-8204-7f9e6b7efb71",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "SYRUPUSDC",
+      "tvlUsd": 63180,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "b64ea04a-3fba-4168-8b1c-e7427794415d",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "GHO",
+      "tvlUsd": 57150,
+      "apy": 3.5987,
+      "stablecoin": true
+    },
+    {
+      "poolId": "b98e3b51-33a8-49c1-8131-9f0ae3021257",
+      "project": "aave-v3",
+      "chain": "Plasma",
+      "symbol": "XAUT0",
+      "tvlUsd": 56859,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9a73da78-b8e5-4325-bc35-6732dd9f9d64",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "ENS",
+      "tvlUsd": 55523,
+      "apy": 0.0812,
+      "stablecoin": false
+    },
+    {
+      "poolId": "363e5586-cfee-402c-9b0b-be70366052e8",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "DAI",
+      "tvlUsd": 53203,
+      "apy": 2.5506,
+      "stablecoin": true
+    },
+    {
+      "poolId": "5fe31d6b-1629-439c-a9ed-620abae1a329",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "WETH",
+      "tvlUsd": 51072,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a214e900-2bcd-431f-9744-632fa5436fee",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "SDAI",
+      "tvlUsd": 50647,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "bd323fdf-81f2-40bd-96a0-189a48ea48e5",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "RSETH",
+      "tvlUsd": 49771,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f4a63672-f7ae-400c-b4b3-7cfe704d2daf",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "1INCH",
+      "tvlUsd": 48716,
+      "apy": 0.0965,
+      "stablecoin": false
+    },
+    {
+      "poolId": "f1566cad-5e54-4ecf-952f-649e5d2f4bbd",
+      "project": "aave-v3",
+      "chain": "Celo",
+      "symbol": "CELO",
+      "tvlUsd": 47444,
+      "apy": 0.6257,
+      "stablecoin": false
+    },
+    {
+      "poolId": "d25b5f1e-3368-4c79-a876-479834b15195",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "SUSDE",
+      "tvlUsd": 46161,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "4734c292-5e38-4962-b7a9-e1e265254c1b",
+      "project": "aave-v3",
+      "chain": "BSC",
+      "symbol": "FDUSD",
+      "tvlUsd": 45703,
+      "apy": 4.4646,
+      "stablecoin": true
+    },
+    {
+      "poolId": "df65c4f4-e33a-481c-bac8-0c2252867c93",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "USDBC",
+      "tvlUsd": 45407,
+      "apy": 0.5999,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7aab7b0f-01c1-4467-bc0d-77826d870f19",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "USDC",
+      "tvlUsd": 42100,
+      "apy": 7.9494,
+      "stablecoin": true
+    },
+    {
+      "poolId": "463a0d20-bcb6-4e65-8715-7dc236a31ee0",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "OP",
+      "tvlUsd": 41442,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "974c8391-3686-4fc9-8477-9df4b618b594",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "EZETH",
+      "tvlUsd": 41112,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "833ec61b-f9e6-46ac-9eff-2785808b2389",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "USDBC",
+      "tvlUsd": 40481,
+      "apy": 1.4798,
+      "stablecoin": false
+    },
+    {
+      "poolId": "68e30785-53bf-49ef-892f-88b197c6bfe6",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "CBETH",
+      "tvlUsd": 40216,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "79d98ac2-be32-4b03-b598-5d9ce813045b",
+      "project": "aave-v3",
+      "chain": "MegaETH",
+      "symbol": "BTC.B",
+      "tvlUsd": 39024,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "3ebae7dd-d7b6-4406-a6a8-032aa23502ad",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "EZETH",
+      "tvlUsd": 36185,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "643ce9b7-7384-49ae-ba8d-8a691a61c723",
+      "project": "aave-v3",
+      "chain": "Mantle",
+      "symbol": "WRSETH",
+      "tvlUsd": 35828,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "3c14db00-4252-40aa-a430-9c756e8dce71",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "GHST",
+      "tvlUsd": 35644,
+      "apy": 0.1332,
+      "stablecoin": false
+    },
+    {
+      "poolId": "fa7b11ef-ea74-4f2a-89bf-65c8b8731355",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "RSETH",
+      "tvlUsd": 32968,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "b177bc1f-6c0c-4c31-9343-fb87c37c1d5a",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "CBBTC",
+      "tvlUsd": 32345,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "6817bab0-5389-40a0-84d1-78830c1d81aa",
+      "project": "aave-v3",
+      "chain": "Linea",
+      "symbol": "USDT",
+      "tvlUsd": 30910,
+      "apy": 5.6719,
+      "stablecoin": true
+    },
+    {
+      "poolId": "8c12b53b-31a1-4c2e-a188-349fff79bb3c",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "SUSDE",
+      "tvlUsd": 28893,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "89f7b2a0-5e17-4ca3-8ecb-9dca29effc8e",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "WRSETH",
+      "tvlUsd": 24343,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4d33c615-a969-4c55-9acf-49d8d14a1063",
+      "project": "spark-savings",
+      "chain": "Ethereum",
+      "symbol": "PYUSD",
+      "tvlUsd": 23911,
+      "apy": 3.8,
+      "stablecoin": true
+    },
+    {
+      "poolId": "7b13e8df-9e04-4920-a711-6aeef16f9f7c",
+      "project": "aave-v3",
+      "chain": "MegaETH",
+      "symbol": "USDE",
+      "tvlUsd": 22693,
+      "apy": 1.2918,
+      "stablecoin": true
+    },
+    {
+      "poolId": "59447a2f-7c4d-433a-a84b-ac6e53986680",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "DPI",
+      "tvlUsd": 20390,
+      "apy": 0.8074,
+      "stablecoin": false
+    },
+    {
+      "poolId": "7c752d52-6d7f-409c-b434-90b39e3cc6ea",
+      "project": "compound-v3",
+      "chain": "Polygon",
+      "symbol": "MATICX",
+      "tvlUsd": 19902,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "509c3a20-3e95-42d5-8835-c4b74beb1baf",
+      "project": "ondo-yield-assets",
+      "chain": "Osmosis",
+      "symbol": "USDY",
+      "tvlUsd": 19216,
+      "apy": 3.75,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ae703e6a-c47e-44bb-bb5d-ba65be18aa7e",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "USDC",
+      "tvlUsd": 18846,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "8db29638-56de-488a-8b4a-991759ba1544",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "USDC",
+      "tvlUsd": 18766,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "45762d4a-f5fb-4a61-8087-473fc8f98991",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "RETH",
+      "tvlUsd": 18604,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "6369a2df-838f-4392-a73b-4c2b2898d537",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "STMATIC",
+      "tvlUsd": 17378,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "75108987-6374-4e2b-8de5-56181758e532",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "WETH",
+      "tvlUsd": 16975,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "bda1c7f0-5a27-4649-a742-022d34d083a9",
+      "project": "sky-lending",
+      "chain": "Ethereum",
+      "symbol": "UNI-V2",
+      "tvlUsd": 16098,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "3c423ba2-b804-4143-8d8e-6774dac40461",
+      "project": "compound-v3",
+      "chain": "Polygon",
+      "symbol": "WPOL",
+      "tvlUsd": 16062,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "4b1bd000-0fdd-4a75-bb30-45b513f7e5f7",
+      "project": "compound-v3",
+      "chain": "Base",
+      "symbol": "WRSETH",
+      "tvlUsd": 15900,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "3d27a933-57ba-405c-9e0f-a928d832bcfd",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "USDE",
+      "tvlUsd": 15031,
+      "apy": 0.6543,
+      "stablecoin": true
+    },
+    {
+      "poolId": "334605f4-c559-4545-8819-5e123a3686fa",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "BAL",
+      "tvlUsd": 14179,
+      "apy": 3.8015,
+      "stablecoin": false
+    },
+    {
+      "poolId": "409b75a5-62ec-4067-a32a-e372b2917fac",
+      "project": "aave-v3",
+      "chain": "Base",
+      "symbol": "EZETH",
+      "tvlUsd": 14104,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "390b8ac3-9ca8-4f31-9414-99e3ea734737",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "METH",
+      "tvlUsd": 13391,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "5d38016f-625b-48d1-8a40-de6ca2d0f83f",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "MAI",
+      "tvlUsd": 12950,
+      "apy": 0.001,
+      "stablecoin": false
+    },
+    {
+      "poolId": "8a1218c0-b408-4784-852c-8305396ba8f4",
+      "project": "aave-v3",
+      "chain": "Avalanche",
+      "symbol": "AUSD",
+      "tvlUsd": 12266,
+      "apy": 6.5039,
+      "stablecoin": true
+    },
+    {
+      "poolId": "45d6af39-ed10-4002-8b4b-e5da908bdb75",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "RSETH",
+      "tvlUsd": 12235,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "55205d7a-7939-42aa-ad8a-0c0123db9474",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "USDS",
+      "tvlUsd": 11615,
+      "apy": 2.102,
+      "stablecoin": true
+    },
+    {
+      "poolId": "904bbbfa-bfc0-4994-94a8-7a57a543ba3e",
+      "project": "compound-v3",
+      "chain": "OP Mainnet",
+      "symbol": "OP",
+      "tvlUsd": 11310,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ef3c9b8f-ff81-483b-a672-21356dddaa1d",
+      "project": "aave-v3",
+      "chain": "Aptos",
+      "symbol": "USDC",
+      "tvlUsd": 11193,
+      "apy": 1.463,
+      "stablecoin": true
+    },
+    {
+      "poolId": "0e863358-7fc0-4290-b05e-071b80eac40a",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "CRV",
+      "tvlUsd": 11087,
+      "apy": 0.093,
+      "stablecoin": false
+    },
+    {
+      "poolId": "2cafff1f-c641-4ed4-a791-2a24ea5dc097",
+      "project": "compound-v3",
+      "chain": "Arbitrum",
+      "symbol": "GMX",
+      "tvlUsd": 10984,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "a04a0942-085e-4502-889b-dcfb61a5af28",
+      "project": "aave-v3",
+      "chain": "Gnosis",
+      "symbol": "GHO",
+      "tvlUsd": 10510,
+      "apy": 1.9983,
+      "stablecoin": true
+    },
+    {
+      "poolId": "e4ad0d33-d11f-4087-9fea-1350d5229c02",
+      "project": "compound-v3",
+      "chain": "Ethereum",
+      "symbol": "WOETH",
+      "tvlUsd": 10484,
+      "apy": 0,
+      "stablecoin": false
+    },
+    {
+      "poolId": "9e127768-292f-4773-9289-2ce7997bb285",
+      "project": "aave-v3",
+      "chain": "OP Mainnet",
+      "symbol": "LUSD",
+      "tvlUsd": 10034,
+      "apy": 7.0793,
+      "stablecoin": true
+    },
+    {
+      "poolId": "e95cadc3-0ea7-4932-9b80-a8baba80eff4",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "EURS",
+      "tvlUsd": 8877,
+      "apy": 0.4427,
+      "stablecoin": true
+    },
+    {
+      "poolId": "a5e57d75-82ce-490a-b44e-d426dd3338f7",
+      "project": "aave-v3",
+      "chain": "Polygon",
+      "symbol": "SUSHI",
+      "tvlUsd": 8610,
+      "apy": 1.57,
+      "stablecoin": false
+    },
+    {
+      "poolId": "ee29cb85-a05d-45d6-a18e-f3296c040e16",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "MUSD",
+      "tvlUsd": 6904,
+      "apy": 2.5399,
+      "stablecoin": true
+    },
+    {
+      "poolId": "09f4aa6a-f06b-4635-ada0-5f0e334d41f0",
+      "project": "aave-v3",
+      "chain": "Aptos",
+      "symbol": "USDT",
+      "tvlUsd": 4602,
+      "apy": 3.4563,
+      "stablecoin": true
+    },
+    {
+      "poolId": "742a82e6-927a-45e3-9684-0ec63fed1700",
+      "project": "aave-v3",
+      "chain": "Linea",
+      "symbol": "MUSD",
+      "tvlUsd": 3620,
+      "apy": 7.6162,
+      "stablecoin": true
+    },
+    {
+      "poolId": "4ef4eb9a-e22e-4190-b8f3-8c75373ad0d6",
+      "project": "aave-v3",
+      "chain": "Ethereum",
+      "symbol": "FRAX",
+      "tvlUsd": 1580,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "6c44491f-74c2-4b68-ac78-685eb8517db2",
+      "project": "aave-v3",
+      "chain": "Celo",
+      "symbol": "EURM",
+      "tvlUsd": 1368,
+      "apy": 3.719,
+      "stablecoin": true
+    },
+    {
+      "poolId": "b6d41555-60e5-485f-9629-ae292c563a5d",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "LUSD",
+      "tvlUsd": 143,
+      "apy": 0,
+      "stablecoin": true
+    },
+    {
+      "poolId": "9bf5faf4-32e3-437e-8080-c38eae10cfa6",
+      "project": "aave-v3",
+      "chain": "Sonic",
+      "symbol": "USDC",
+      "tvlUsd": 22,
+      "apy": 0.1996,
+      "stablecoin": true
+    },
+    {
+      "poolId": "8d4d3acb-e1bf-471a-8256-36b90a8f4d25",
+      "project": "aave-v3",
+      "chain": "Arbitrum",
+      "symbol": "FRAX",
+      "tvlUsd": 2,
+      "apy": 0,
+      "stablecoin": true
+    }
+  ],
+  "errors": []
+}
